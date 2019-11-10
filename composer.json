@@ -1,6 +1,7 @@
 {
     "name": "majframe/package-installer-plugin",
     "type": "composer-plugin",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "MajFrame\\Composer\\": "src/"
