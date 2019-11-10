@@ -1,0 +1,19 @@
+{
+    "name": "majframe/package-installer-plugin",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "MajFrame\\Composer\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "MajFrame\\Composer\\PackageInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.3"
+    },
+    "license": "MIT"
+}
