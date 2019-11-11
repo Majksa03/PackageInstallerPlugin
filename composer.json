@@ -6,7 +6,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "MajFrame\\Composer\\": "src/"
+            "MajFrame\\Composer\\": "Composer/"
         }
     },
     "extra": {

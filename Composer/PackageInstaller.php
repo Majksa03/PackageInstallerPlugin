@@ -29,7 +29,7 @@ class PackageInstaller extends LibraryInstaller
                 .'start with '.self::PREFIX
             );
         }
-        return 'packages/'.substr($package->getPrettyName(),
+        return 'src/Packages/'.substr($package->getPrettyName(),
                 strlen(self::PREFIX));
     }
 
